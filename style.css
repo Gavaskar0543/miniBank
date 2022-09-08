@@ -1,0 +1,49 @@
+*{
+    font-family:monospace;
+  }
+  body{
+    background-image: url("https://images.pexels.com/photos/904735/pexels-photo-904735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+  }
+  .alian{
+    width:300px;
+    margin:auto;
+    margin-top:10%;
+  }
+ 
+ .buttons{
+  display:flex;
+  justify-content:center;
+  margin-top:30px;
+ }
+ #withd{
+  margin-left:20px;
+ }
+  #balance{
+    font-size:35px;
+    text-align:center;
+    margin-top:50px;
+    font-weight:800; 
+    text-shadow:2px 2px 2px grey;
+   
+    
+  }
+  #Depo{
+    width:120px;
+    border-radius:12px; 
+    border:1px solid green;
+  }
+  #withd{
+    width:120px;
+    border-radius:12px;
+  }
+  #message{
+    font-size:48px;
+    font-weight:900;
+    margin-left:10%;
+    margin-top:30px;
+   
+
+  }

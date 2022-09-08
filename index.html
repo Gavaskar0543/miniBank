@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Chitra bank</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--Navbar--->
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1 "><h1 style="font-size:48px; text-shadow:2px 2px 2px black;" id="title">Chitra Bank</h1></span>
+</nav>
+  <!---Amount Input--->
+<div class="alian"> 
+<div class="input-group input-group-lg">
+  <span class="input-group-text  font-monospace"id="inputGroup-sizing-lg">Amount</span>
+  <input id="textbox"type="text" class=" form-control " aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+</div>
+</div>
+  <!---Deposit button-->
+  <div class="buttons">
+   <button 
+type="button"  class="btn btn-success " id="Depo">Deposit</button>
+ 
+  <!--Withdraw button--->
+
+   <button type="button" class="btn btn-danger"id="withd">Withdraw</button>
+  </div>
+  <!--Balance-->
+  
+  <div class="container" id="balance">
+   <h1>Balance<span class="badge bg-secondary">0</span></h1>
+   </div>
+    <!--Textbox-->
+    <p id="message"></p>
+  </div>
+  
+   
+   <script src="script.js"></script>
+</body>
+  
+
+</html>
