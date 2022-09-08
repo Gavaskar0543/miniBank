@@ -1,3 +1,3 @@
 # miniBank
-H
-tech used: JAVASCRIPT
+
+#tech used: JAVASCRIPT
